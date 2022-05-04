@@ -9,21 +9,30 @@
 /* Begin PBXBuildFile section */
 		EB96C62628221FD200EE3487 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB96C62528221FD200EE3487 /* AppDelegate.swift */; };
 		EB96C62828221FD200EE3487 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB96C62728221FD200EE3487 /* SceneDelegate.swift */; };
-		EB96C62A28221FD200EE3487 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB96C62928221FD200EE3487 /* ViewController.swift */; };
 		EB96C62D28221FD200EE3487 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB96C62B28221FD200EE3487 /* Main.storyboard */; };
 		EB96C62F28221FD400EE3487 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB96C62E28221FD400EE3487 /* Assets.xcassets */; };
 		EB96C63228221FD400EE3487 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB96C63028221FD400EE3487 /* LaunchScreen.storyboard */; };
+		EB96C63A2822205F00EE3487 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB96C6392822205F00EE3487 /* Animal.swift */; };
+		EB96C63C2822235A00EE3487 /* AnimalTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB96C63B2822235A00EE3487 /* AnimalTableViewController.swift */; };
+		EB96C63E2822238F00EE3487 /* AnimalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB96C63D2822238F00EE3487 /* AnimalTableViewCell.swift */; };
+		EB96C6412822264300EE3487 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = EB96C6402822264300EE3487 /* Kingfisher */; };
+		EBAFCA9D2822369900BDFEAE /* AnimalCatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAFCA9C2822369900BDFEAE /* AnimalCatTableViewCell.swift */; };
+		EBAFCA9F2822376300BDFEAE /* AnimalCatTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBAFCA9E2822376300BDFEAE /* AnimalCatTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EB96C62228221FD200EE3487 /* Work15_Json_Array.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Work15_Json_Array.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB96C62528221FD200EE3487 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EB96C62728221FD200EE3487 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EB96C62928221FD200EE3487 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EB96C62C28221FD200EE3487 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EB96C62E28221FD400EE3487 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB96C63128221FD400EE3487 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB96C63328221FD400EE3487 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB96C6392822205F00EE3487 /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
+		EB96C63B2822235A00EE3487 /* AnimalTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalTableViewController.swift; sourceTree = "<group>"; };
+		EB96C63D2822238F00EE3487 /* AnimalTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalTableViewCell.swift; sourceTree = "<group>"; };
+		EBAFCA9C2822369900BDFEAE /* AnimalCatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalCatTableViewCell.swift; sourceTree = "<group>"; };
+		EBAFCA9E2822376300BDFEAE /* AnimalCatTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalCatTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB96C6412822264300EE3487 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,8 +68,12 @@
 			children = (
 				EB96C62528221FD200EE3487 /* AppDelegate.swift */,
 				EB96C62728221FD200EE3487 /* SceneDelegate.swift */,
-				EB96C62928221FD200EE3487 /* ViewController.swift */,
 				EB96C62B28221FD200EE3487 /* Main.storyboard */,
+				EB96C6392822205F00EE3487 /* Animal.swift */,
+				EB96C63B2822235A00EE3487 /* AnimalTableViewController.swift */,
+				EBAFCA9C2822369900BDFEAE /* AnimalCatTableViewCell.swift */,
+				EBAFCA9E2822376300BDFEAE /* AnimalCatTableViewController.swift */,
+				EB96C63D2822238F00EE3487 /* AnimalTableViewCell.swift */,
 				EB96C62E28221FD400EE3487 /* Assets.xcassets */,
 				EB96C63028221FD400EE3487 /* LaunchScreen.storyboard */,
 				EB96C63328221FD400EE3487 /* Info.plist */,
@@ -83,6 +97,9 @@
 			dependencies = (
 			);
 			name = Work15_Json_Array;
+			packageProductDependencies = (
+				EB96C6402822264300EE3487 /* Kingfisher */,
+			);
 			productName = Work15_Json_Array;
 			productReference = EB96C62228221FD200EE3487 /* Work15_Json_Array.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +128,9 @@
 				Base,
 			);
 			mainGroup = EB96C61928221FD200EE3487;
+			packageReferences = (
+				EB96C63F2822264300EE3487 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = EB96C62328221FD200EE3487 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,9 +158,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB96C62A28221FD200EE3487 /* ViewController.swift in Sources */,
+				EBAFCA9D2822369900BDFEAE /* AnimalCatTableViewCell.swift in Sources */,
+				EB96C63A2822205F00EE3487 /* Animal.swift in Sources */,
 				EB96C62628221FD200EE3487 /* AppDelegate.swift in Sources */,
 				EB96C62828221FD200EE3487 /* SceneDelegate.swift in Sources */,
+				EB96C63E2822238F00EE3487 /* AnimalTableViewCell.swift in Sources */,
+				EBAFCA9F2822376300BDFEAE /* AnimalCatTableViewController.swift in Sources */,
+				EB96C63C2822235A00EE3487 /* AnimalTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +380,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EB96C63F2822264300EE3487 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EB96C6402822264300EE3487 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EB96C63F2822264300EE3487 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EB96C61A28221FD200EE3487 /* Project object */;
 }
